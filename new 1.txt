@@ -1,0 +1,26 @@
+
+1661.65  1799.18  1883.11  1862.80  1923.79  1990.34 
+tab
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l|l}
+              & result   & time       & time it would take for 10 dimensions \\ \hline
+Rastrigint    & 0.00000  & 4234.475 s & 1.361438e+18 s                       \\ \hline
+Michalewicz’s & -1.80130 & 302.965 s  & 2.5524797e+12 s                      \\ \hline
+Sphere        & 0.00000  & 3862.920 s & 8.6015867e+17 s                     
+\end{tabular}
+\end{table}
+For Rastrigint and Sphere Functions  \(f( {0, 0, ..., 0} ) = 0\) holds for every dimension, but for Michalewicz’s I could not compute the value for 10 dimensions so I made research to find it and \(f(x) = -9.66015\)
+\subsubsection{Rastrigint Function}
+Deterministic algorithm showed that the minimum is found on \(f( {0, 0, ..., 0} ) = 0\) for any dimension.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|lll|lll}
+\multicolumn{1}{l|}{} & \multicolumn{3}{c|}{time}                                                                  & \multicolumn{3}{c}{results}                                              \\ \hline
+dim.                  & \multicolumn{1}{c|}{average}  & \multicolumn{1}{c|}{best}     & \multicolumn{1}{c|}{worst} & \multicolumn{1}{l|}{average}  & \multicolumn{1}{l|}{best}     & worst    \\ \hline
+2                     & \multicolumn{1}{l|}{253.3047} & \multicolumn{1}{l|}{249.226}  & 256.745                    & \multicolumn{1}{l|}{0.000005} & \multicolumn{1}{l|}{0.00000}  & 0.00001  \\ \hline
+10                    & \multicolumn{1}{l|}{173.2}    & \multicolumn{1}{l|}{193.7691} & 317.076                    & \multicolumn{1}{l|}{28.7474}  & \multicolumn{1}{l|}{21.93611} & 35.48459 \\ \hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+﻿  H2.cpp
+C:\C++\AG\H2\H2\H2.cpp(28,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\C++\AG\H2\H2\H2.cpp(180,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\C++\AG\H2\H2\H2.cpp(274,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  H2.vcxproj -> C:\C++\AG\H2\Debug\H2.exe
